@@ -77,8 +77,6 @@ public abstract class Creature extends Thread{
 	 * the 2D Creature array and causes the thread to start
 	 * execution. The object can only be placed in a vacant 
 	 * square.
-	 * @param nextCreature the Creature object to be placed in
-	 * the world.
 	 */
 	protected void placeCreature(){
 		boolean newLocation = false;

@@ -17,7 +17,6 @@ public abstract class SpeciesGenerator {
 	 * and the Creature[][] creatureWorld. The Creature class also
 	 * sets the values contained in the World object so they 
 	 * are available to all Creature objects.
-	 * @param speciesCount the number of species required.
 	 * @param world the world the creatures will inhabit
 	 */
 	public SpeciesGenerator(World world){

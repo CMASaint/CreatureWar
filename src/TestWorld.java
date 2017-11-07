@@ -3,7 +3,7 @@ public class TestWorld {
 	
 	/** Determines how many different species will be generated
 	 * (ONLY in SpeciesGenerator2!) */
-	private final static int speciesCount = 2;
+	private final static int speciesCount = 5;
 	/** Number of rows in the world. */
 	private final static int rows = 15;
 	/** Number of columns in the world. */
@@ -22,9 +22,9 @@ public class TestWorld {
 	 */
 	public static void main(String[] args){
 		World world = new World(rows, columns); 
-		new SpeciesGenerator1(world);
+//		new SpeciesGenerator1(world);
 //		new SpeciesGenerator1Jump(world);
-//		new SpeciesGenerator2(world, speciesCount);
+		new SpeciesGenerator2(world, speciesCount);
 		new Display(world, checkDelay);
 	}
 	

@@ -10,7 +10,6 @@ public class SpeciesGenerator1Jump extends SpeciesGenerator1{
 	 * MaxLifespan. These species can all create new Creature
 	 * objects on the opposite side of the array when on
 	 * an edge of the array.
-	 * @param speciesCount the number of species required.
 	 * @param world the world the creatures will inhabit
 	 */
 	public SpeciesGenerator1Jump(World world) {

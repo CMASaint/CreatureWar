@@ -14,7 +14,6 @@ public class SpeciesGenerator1 extends SpeciesGenerator{
 	 * objects with predefined values for fitness and 
 	 * MaxLifespan. These species cannot create new Creature
 	 * objects off the edge of the array.
-	 * @param speciesCount the number of species required.
 	 * @param world the world the creatures will inhabit
 	 */
 	public SpeciesGenerator1(World world) {
